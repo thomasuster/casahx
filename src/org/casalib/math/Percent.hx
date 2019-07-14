@@ -42,8 +42,8 @@ package org.casalib.math;
 	*/
 	class Percent  {
 		
-		public var decimalPercentage(get_decimalPercentage, set_decimalPercentage) : Float;
-		public var percentage(get_percentage, set_percentage) : Float;
+		public var decimalPercentage(get, set) : Float;
+		public var percentage(get, set) : Float;
 		var _percent:Float;
 		
 		
